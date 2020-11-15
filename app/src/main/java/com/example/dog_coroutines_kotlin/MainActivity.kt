@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity(), CoroutineScope by MainScope() {
                         }
                     } else {
                         // Show API error.
-                        Log.e("XXX","Not Going thru1")
+                        Log.e("Error Tracking", response.code().toString())
 
                         Toast.makeText(
                             this@MainActivity,

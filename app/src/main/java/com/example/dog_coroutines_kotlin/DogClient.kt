@@ -8,6 +8,6 @@ import retrofit2.http.GET
 * on 28-10-20*/
 interface DogClient {
 
-    @GET("\"/api/breeds/image/random\"")
+    @GET("api/breeds/image/random")
     suspend fun getDog(): Response<ImageModel>
 }
